@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <div class="hero">
+        <h1 class="title">Metric/Imperial Unit Conversion</h1>
+        <input type="text" name="unit" id="unit" />
+        <button class="button" id="convert-btn">Convert</button>
+      </div>
+      <div class="results">
+        <div class="card">
+          <h5 class="card-title">Length (Meter/Feet)</h5>
+          <p class="card-results" id="length-result"></p>
+        </div>
+        <div class="card">
+          <h5 class="card-title">Volume (Liters/Gallons)</h5>
+          <p class="card-results" id="volume-result"></p>
+        </div>
+        <div class="card">
+          <h5 class="card-title">Mass (Kilograms/Pounds)</h5>
+          <p class="card-results" id="mass-result"></p>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
