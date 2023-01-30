@@ -32,6 +32,7 @@ function conversionObj(numToConvert, conversionRate) {
   };
 }
 
+// Returns a string with HTML elements. This is better for performance reasons, only have to manipulate the DOM once instead of eleven times.
 function resultsDOM(num, length, volume, mass) {
   return `
     <div class="card">
